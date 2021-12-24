@@ -15,7 +15,9 @@
 #### Smart Media Player (main):-
 * The first block of code is the face detection method which is later referenced before playing or pausing the video.
 * The second block is controlling the flow of the video.
-* First we check if a viewer is present or not by calling `facedetect` function and play the video once presence of viewer is made sure.
+* The path of the video file is feeded by the user in the `Line 4`.
+* Please note that this program is only used to play offline videos and cannot work with online videos as of now.
+* Now first we check if a viewer is present or not by calling `facedetect` function and play the video once presence of viewer is made sure.
 * Then we thereby control the flow of video according to the suitable comments mentioned alongside in the code.
 * We also include a waiting variable `x` which starts incrementing once the viewer goes absent which in turn stops the media player.
 * If the viewer returns to the screen before the waiting variable `x` hits its pre-defined limit then the video continues and `x` is again set to `0`.
