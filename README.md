@@ -18,7 +18,7 @@
 * First we check if a viewer is present or not by calling `facedetect` function and play the video once presence of viewer is made sure.
 * Then we thereby control the flow of video according to the suitable comments mentioned alongside in the code.
 * We also include a waiting variable `x` which starts incrementing once the viewer goes absent which in turn stops the media player.
-* If the viewer returns to the screen before the waiting variable `x` hits its pre-defined limit then the video continues and `x` is again set to 0.
+* If the viewer returns to the screen before the waiting variable `x` hits its pre-defined limit then the video continues and `x` is again set to `0`.
 * The `keyboard` library is used to check if the viewer wants to exit the player in middle of its course.
 * We bind `q` key to quit the player by using the `is_pressed()` function of the `keyboard` library.
 
