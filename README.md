@@ -1,4 +1,4 @@
-# Smart-Media-Player
+# Smart-Media-Player 🦖
 
 ********************
 ***🧔:- Ayush Jaiswal<br>
@@ -8,11 +8,11 @@
 **Here we create a smart media player using vlc and cv library of python which plays a video only when there is a viewer present in front of the screen.**
 ### Understanding the files of the code:-
 
-#### Facedetect:-
+#### * Facedetect:-
 * This python file contains the code for face detection using computer vision or cv library.
 * It returns the length of `faces` list which contains the number of faces detected.
 
-#### Smart Media Player (main):-
+#### * Smart Media Player (main):-
 * The first block of code is the face detection method which is later referenced before playing or pausing the video.
 * The second block is controlling the flow of the video.
 * First we check if a viewer is present or not by calling `facedetect` function and play the video once presence of viewer is made sure.
